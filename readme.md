@@ -5,7 +5,7 @@ use mock in webpack-dev-server
 config the webpack.config.js
 
 ```js
-const mockerApi = require('webpack-mocker-api')
+const { mockerApi } = require('webpack-mocker-api')
 
 const config = {
   // ...

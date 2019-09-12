@@ -1,6 +1,9 @@
 {
   "name": "webpack-mocker-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "scripts": {
+    "test": "nodemon test/app.js"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "lodash": "^4.17.15",
