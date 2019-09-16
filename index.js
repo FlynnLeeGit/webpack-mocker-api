@@ -1,7 +1,9 @@
+const MockJs = require('mockjs')
+
 const mockerApi = require('mocker-api')
-const mock = require('./mock')
 const wrapper = require('./wrapper')
 
-exports.mock = mock
+exports.mock = MockJs.mock
+exports.random = MockJs.Random
 exports.wrapper = wrapper
 exports.mockerApi = mockerApi

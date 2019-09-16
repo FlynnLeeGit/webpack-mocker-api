@@ -23,7 +23,7 @@ const config = {
 mock/index.js
 
 ```js
-const { wrapper, mock } = require('webpack-mocker-api')
+const { wrapper, mock, random } = require('webpack-mocker-api')
 
 const mockerApis = {
   /**
@@ -54,8 +54,29 @@ const mockerApis = {
         menu_type: 2
       }
     ]
-  })
+  }),
+  'GET /_api/v1/example4': {
+    rEmail: random.email()
+  }
 }
 
 module.exports = wrapper(mockerApis)
 ```
+
+
+### .mockerApi
+
+
+### .mock
+同[mockJs.Mock](https://github.com/nuysoft/Mock/wiki/Mock.mock())
+
+
+### .random
+同[mockJs.Random ](https://github.com/nuysoft/Mock/wiki/Mock.Random)
+
+
+
+
+
+
+
