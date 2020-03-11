@@ -1,6 +1,6 @@
 {
   "name": "webpack-mocker-api",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "test": "nodemon test/app.js"
   },
@@ -9,5 +9,10 @@
     "lodash": "^4.17.15",
     "mocker-api": "^1.9.0",
     "mockjs": "^1.0.1-beta3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlynnLeeGit/webpack-mocker-api"
+  },
+  "homepage": "https://github.com/FlynnLeeGit/webpack-mocker-api"
 }

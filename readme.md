@@ -68,11 +68,11 @@ module.exports = wrapper(mockerApis)
 
 
 ### .mock
-同[mockJs.Mock](https://github.com/nuysoft/Mock/wiki/Mock.mock())
+same to [mockJs.Mock](https://github.com/nuysoft/Mock/wiki/Mock.mock())
 
 
 ### .random
-同[mockJs.Random ](https://github.com/nuysoft/Mock/wiki/Mock.Random)
+same to [mockJs.Random ](https://github.com/nuysoft/Mock/wiki/Mock.Random)
 
 
 
